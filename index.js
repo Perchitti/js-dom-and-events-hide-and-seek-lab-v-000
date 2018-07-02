@@ -1,4 +1,4 @@
 const getFirstSelector = document.querySelector('.ranked-list')
 
 
-document.getElementById('#nested').querySelector('.target')
+const nestedTarget = document.getElementById('#nested').querySelector('.target')
