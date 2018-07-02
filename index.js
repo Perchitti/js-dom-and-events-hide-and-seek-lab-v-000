@@ -1,0 +1,1 @@
+document.querySelector('.ranked-list')
