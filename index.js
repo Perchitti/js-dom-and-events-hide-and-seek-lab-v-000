@@ -1,5 +1,7 @@
-const getFirstSelector = document.querySelector('.ranked-list')
-const div = getFirstSelector[0]
+function getFirstSelector(selector){
+  document.querySelector(selector)
+} 
+
 
 
 const nestedTarget = document.getElementById('#nested').querySelector('.target')
