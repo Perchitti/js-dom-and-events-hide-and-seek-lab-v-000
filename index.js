@@ -12,6 +12,7 @@ function deepestChild(){
 
 function increaseRankBy(){
   const = rankedLists document.querySelectorAll.('.ranked-list.')
-  const firstList = rankedLists[0]
-  const secondList = rankedLists[1]
+  for (let i = 0; i < rankedLists, i++){
+    rankedLists[i].innerHTML = (i + 1).parseInt
+  }
 }
